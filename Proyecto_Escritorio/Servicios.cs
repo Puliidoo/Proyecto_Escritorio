@@ -10,16 +10,18 @@ using System.Windows.Forms;
 
 namespace Proyecto_Escritorio
 {
-    public partial class Form1 : Form
+    public partial class Servicios : Form
     {
-        public Form1()
+        public Servicios()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void button_CerrarSesion_Click(object sender, EventArgs e)
         {
-
+            Inicio paginaInicio = new Inicio();
+            paginaInicio.Show();
+            this.Close();
         }
     }
 }

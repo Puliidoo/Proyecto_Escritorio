@@ -63,6 +63,26 @@ namespace Proyecto_Escritorio.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_pantalla_2025_10_20_190627 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de pantalla 2025-10-20 190627", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_pantalla_2025_10_20_190643 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de pantalla 2025-10-20 190643", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap nanoskills_logo {
             get {
                 object obj = ResourceManager.GetObject("nanoskills logo", resourceCulture);

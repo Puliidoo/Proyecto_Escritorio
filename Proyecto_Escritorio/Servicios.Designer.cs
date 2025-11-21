@@ -28,29 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button_CrearProyectos = new System.Windows.Forms.Button();
             this.button_CrearUsuario = new System.Windows.Forms.Button();
             this.button_GestionarProyecto = new System.Windows.Forms.Button();
             this.button_CerrarSesion = new System.Windows.Forms.Button();
             this.label_Servicios = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Proyecto_Escritorio.Properties.Resources.nanoskills_logo;
-            this.pictureBox1.Location = new System.Drawing.Point(-2, -3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(117, 108);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // button_CrearProyectos
             // 
             this.button_CrearProyectos.BackColor = System.Drawing.SystemColors.Highlight;
             this.button_CrearProyectos.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button_CrearProyectos.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_CrearProyectos.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button_CrearProyectos.Location = new System.Drawing.Point(261, 94);
             this.button_CrearProyectos.Name = "button_CrearProyectos";
@@ -58,11 +49,13 @@
             this.button_CrearProyectos.TabIndex = 1;
             this.button_CrearProyectos.Text = "Crear Proyecto";
             this.button_CrearProyectos.UseVisualStyleBackColor = false;
+            this.button_CrearProyectos.Click += new System.EventHandler(this.button_CrearProyectos_Click);
             // 
             // button_CrearUsuario
             // 
             this.button_CrearUsuario.BackColor = System.Drawing.SystemColors.Highlight;
             this.button_CrearUsuario.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button_CrearUsuario.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_CrearUsuario.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button_CrearUsuario.Location = new System.Drawing.Point(261, 166);
             this.button_CrearUsuario.Name = "button_CrearUsuario";
@@ -70,11 +63,13 @@
             this.button_CrearUsuario.TabIndex = 2;
             this.button_CrearUsuario.Text = "Crear Usuario";
             this.button_CrearUsuario.UseVisualStyleBackColor = false;
+            this.button_CrearUsuario.Click += new System.EventHandler(this.button_CrearUsuario_Click);
             // 
             // button_GestionarProyecto
             // 
             this.button_GestionarProyecto.BackColor = System.Drawing.SystemColors.Highlight;
             this.button_GestionarProyecto.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button_GestionarProyecto.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_GestionarProyecto.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button_GestionarProyecto.Location = new System.Drawing.Point(261, 239);
             this.button_GestionarProyecto.Name = "button_GestionarProyecto";
@@ -87,6 +82,7 @@
             // 
             this.button_CerrarSesion.BackColor = System.Drawing.Color.Red;
             this.button_CerrarSesion.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button_CerrarSesion.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_CerrarSesion.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button_CerrarSesion.Location = new System.Drawing.Point(261, 342);
             this.button_CerrarSesion.Name = "button_CerrarSesion";
@@ -105,6 +101,16 @@
             this.label_Servicios.Size = new System.Drawing.Size(198, 59);
             this.label_Servicios.TabIndex = 5;
             this.label_Servicios.Text = "Servicios";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Proyecto_Escritorio.Properties.Resources.nanoskills_logo;
+            this.pictureBox1.Location = new System.Drawing.Point(-2, -3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(117, 108);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // Servicios
             // 

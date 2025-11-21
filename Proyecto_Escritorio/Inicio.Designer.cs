@@ -35,6 +35,8 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.Logo = new System.Windows.Forms.PictureBox();
+            this.label_Email = new System.Windows.Forms.Label();
+            this.label_Contraseña = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Logo)).BeginInit();
@@ -106,12 +108,34 @@
             this.Logo.TabIndex = 0;
             this.Logo.TabStop = false;
             // 
+            // label_Email
+            // 
+            this.label_Email.AutoSize = true;
+            this.label_Email.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Email.Location = new System.Drawing.Point(264, 218);
+            this.label_Email.Name = "label_Email";
+            this.label_Email.Size = new System.Drawing.Size(40, 17);
+            this.label_Email.TabIndex = 7;
+            this.label_Email.Text = "Email";
+            // 
+            // label_Contraseña
+            // 
+            this.label_Contraseña.AutoSize = true;
+            this.label_Contraseña.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Contraseña.Location = new System.Drawing.Point(264, 267);
+            this.label_Contraseña.Name = "label_Contraseña";
+            this.label_Contraseña.Size = new System.Drawing.Size(77, 17);
+            this.label_Contraseña.TabIndex = 8;
+            this.label_Contraseña.Text = "Contraseña";
+            // 
             // Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label_Contraseña);
+            this.Controls.Add(this.label_Email);
             this.Controls.Add(this.button_IniciarSesion);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.textBoxContrasena);
@@ -140,6 +164,8 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.TextBox textBoxContrasena;
         private System.Windows.Forms.Button button_IniciarSesion;
+        private System.Windows.Forms.Label label_Email;
+        private System.Windows.Forms.Label label_Contraseña;
     }
 }
 

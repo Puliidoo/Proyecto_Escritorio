@@ -23,5 +23,19 @@ namespace Proyecto_Escritorio
             paginaInicio.Show();
             this.Close();
         }
+
+        private void button_CrearProyectos_Click(object sender, EventArgs e)
+        {
+            CrearProyecto crearProyecto = new CrearProyecto();
+            crearProyecto.Show();
+            this.Close();
+        }
+
+        private void button_CrearUsuario_Click(object sender, EventArgs e)
+        {
+            Crear_Usuario crearUsuario = new Crear_Usuario();
+            crearUsuario.Show();
+            this.Close();
+        }
     }
 }

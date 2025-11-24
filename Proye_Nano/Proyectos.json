@@ -1,0 +1,44 @@
+[
+    {
+        "Nom": "Projecte Alpha",
+        "DataInici": "2025-11-20T00:00:00",
+        "DataFi": "2025-12-20T00:00:00",
+        "Responsables": [
+            {
+                "NomComplet": "Project Manager",
+                "Username": "pm1",
+                "Contrasenya": "1234",
+                "Rol": "PM",
+                "Actiu": true
+            }
+        ],
+        "Tasques": [
+            {
+                "Nom": "Disseny UI",
+                "Estat": "Completada",
+                "Hores": 10,
+                "Comentaris": "Finalitzat sense problemes",
+                "AssignadaA": {
+                    "NomComplet": "Dev 1",
+                    "Username": "dev1",
+                    "Contrasenya": "1234",
+                    "Rol": "Desenvolupador",
+                    "Actiu": true
+                }
+            },
+            {
+                "Nom": "Programació Backend",
+                "Estat": "En progreso",
+                "Hores": 5,
+                "Comentaris": "A mig camí",
+                "AssignadaA": {
+                    "NomComplet": "Dev 2",
+                    "Username": "dev2",
+                    "Contrasenya": "1234",
+                    "Rol": "Desenvolupador",
+                    "Actiu": true
+                }
+            }
+        ]
+    }
+]

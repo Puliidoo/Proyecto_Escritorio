@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Proye_Nano/1.0.0": {
+        "runtime": {
+          "Proye_Nano.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Proye_Nano/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

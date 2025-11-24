@@ -1,0 +1,9 @@
+[
+    {
+        "NomComplet": "Carlos Admin",
+        "Username": "superadmin",
+        "Contrasenya": "1234",
+        "Rol": "SuperAdmin",
+        "Actiu": true
+    }
+]

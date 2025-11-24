@@ -1,0 +1,16 @@
+[
+    {
+        "NomComplet": "Dev 1",
+        "Username": "dev1",
+        "Contrasenya": "1234",
+        "Rol": "Desenvolupador",
+        "Actiu": true
+    },
+    {
+        "NomComplet": "Dev 2",
+        "Username": "dev2",
+        "Contrasenya": "1234",
+        "Rol": "Desenvolupador",
+        "Actiu": true
+    }
+]
